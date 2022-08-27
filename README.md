@@ -118,6 +118,11 @@ load(draw);
 70,80,90, 100}, contour= both,color = blue, elevation_grid 
 (M,0,0,1,1), title = "poiPDE.mac", xlabel = "x",ylabel = "y",
 zlabel = "Function value",surface_hide = true); 
+  
+    
+      
+      
+![poiPDEmac](https://user-images.githubusercontent.com/29483443/187046619-1ca21454-094b-4cbb-ba82-5012399bfb60.svg)
    
      
  
