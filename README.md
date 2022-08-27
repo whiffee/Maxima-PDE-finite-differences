@@ -31,6 +31,7 @@ draw2d(palette=gray,image(im,0,0,100,100),
 title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $  
   
 
+![paraPDE mac](https://user-images.githubusercontent.com/29483443/187046014-8cb278e0-4a29-4452-8515-2b48f4baa192.svg)
 
 
 
@@ -53,10 +54,10 @@ load(draw); draw3d (contour_levels=
 {x[1],x[2],x[3], x[4],x[5],x[6],x[7],x[8],x[9],x[10],x[11],  
 x[12], x[13],x[14],x[15], x[16], x[17],x[18],x[19],x[20]},  
 contour = both, color = blue, elevation_grid(M,0,0,8,24),  
-title = "HypPDE.mac", xlabel = "Time", ylabel = "x", zlabel = "Function  value"); \\
-\\
-\\
+title = "HypPDE.mac", xlabel = "Time", ylabel = "x", zlabel = "Function  value"); 
 
+
+![hyppde mac](https://user-images.githubusercontent.com/29483443/187046283-21a9eb1c-942a-4a67-b48b-93712e6c4b5f.svg)
 
   
 
