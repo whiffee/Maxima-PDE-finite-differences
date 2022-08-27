@@ -26,8 +26,8 @@ draw3d (contour_levels={10, 20,30,40,50,60,70,80,90,100},
 contour = both,color = blue,elevation_grid(M,0,0,1,1),
 im: apply(matrix,makelist(makelist (f[i,j],j,1.0,19.0),  
 i,1.0,19.0)) $ 
-draw2d(palette=gray,image(im,0,0,100,100),
-title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $  
+/*draw2d(palette=gray,image(im,0,0,100,100),
+title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $ */ 
   
 
 ![paraPDE mac](https://user-images.githubusercontent.com/29483443/187046975-fef2f58b-3b2e-4da6-b41b-e02b6dc3419d.svg)
