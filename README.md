@@ -30,7 +30,8 @@ draw2d(palette=gray,image(im,0,0,100,100),
 title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $  
   
 
-![poiPDEmac](https://user-images.githubusercontent.com/29483443/187046948-b0a55790-a536-4e8c-877e-80ffa675262b.svg)
+![paraPDE mac](https://user-images.githubusercontent.com/29483443/187046975-fef2f58b-3b2e-4da6-b41b-e02b6dc3419d.svg)
+
 
 
 
