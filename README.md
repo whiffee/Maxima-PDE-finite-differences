@@ -34,6 +34,7 @@ title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); 
 
 
 
+
 ### The second is for the hyperbolic class of PDEs, such as the wave equation. The .mac file reads as follows:  
 
  declare([iend,jend,dx,dt],constant); iend:20; jend:20;  
