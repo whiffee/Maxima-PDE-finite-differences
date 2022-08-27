@@ -11,8 +11,7 @@ them slightly, and put them below. They have been found to successfully run in c
 ### The first is for the parabolic class of PDEs, such as the diffusion equation. The .mac file reads as follows:  
   
 declare([r,iend,jend,fini],constant);  
- r:0.5;iend:20.0;
-jend:20;fini:100.0;  
+ r:0.5;iend:20.0;jend:20;fini:100.0;  
  for j:1.0 thru jend do for i:1.0 thru iend do f[i,j]:fini;  
  for j:1.0 thru jend do f[1.0,j]:0.0;  
  for i:iend thru iend do for j:1.0 thru jend do  
@@ -23,11 +22,12 @@ f[iend,j]:0.0;
  load(draw)$  
 M:apply(matrix,makelist(makelist(f[i,j],j,1.0,19.0),i,1.0,19.0 ));$
 draw3d (contour_levels={10, 20,30,40,50,60,70,80,90,100},  
-contour = both,color = blue,elevation_grid(M,0,0,1,1),
+contour = both,color = blue,elevation_grid(M,0,0,1,1),title = 
+    "paraPDE.mac", xlabel  
+= "x",ylabel = "y",zlabel ="Function value",surface_hide = true);  
 im: apply(matrix,makelist(makelist (f[i,j],j,1.0,19.0),  
 i,1.0,19.0)) $ 
-/*draw2d(palette=gray,image(im,0,0,100,100),
-title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $ */ 
+/*draw2d(palette=gray,image(im,0,0,100,100))$ */
   
 
 ![paraPDE mac](https://user-images.githubusercontent.com/29483443/187046975-fef2f58b-3b2e-4da6-b41b-e02b6dc3419d.svg)
