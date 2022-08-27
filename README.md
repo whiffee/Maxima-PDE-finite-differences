@@ -23,15 +23,15 @@ f[iend,j]:0.0;
  load(draw)$  
 M:apply(matrix,makelist(makelist(f[i,j],j,1.0,19.0),i,1.0,19.0 ));$
 draw3d (contour_levels={10, 20,30,40,50,60,70,80,90,100},  
-contour = both,color = blue,elevation_grid(M,0,0,1,1),xlabel  
-= "x",ylabel = "y",surface_hide = true);  
+contour = both,color = blue,elevation_grid(M,0,0,1,1),
 im: apply(matrix,makelist(makelist (f[i,j],j,1.0,19.0),  
 i,1.0,19.0)) $ 
 draw2d(palette=gray,image(im,0,0,100,100),
 title = "ParaPDE.mac", xlabel = "x", ylabel = "y", zlabel = "Function  value"); $  
   
 
-![paraPDE mac](https://user-images.githubusercontent.com/29483443/187046014-8cb278e0-4a29-4452-8515-2b48f4baa192.svg)
+![poiPDEmac](https://user-images.githubusercontent.com/29483443/187046948-b0a55790-a536-4e8c-877e-80ffa675262b.svg)
+
 
 
 
