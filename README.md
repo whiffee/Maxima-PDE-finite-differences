@@ -4,7 +4,7 @@ Some .mac files for calculating partial differential equations through the metho
 In 2013 an academic paper was published by the Turkish professor Tufan Sirin, which demonstrated how to do PDEs in Maxima  
 using finite differences. The title of the paper is "Solutions of Partial Differential Equations with Computer Algebra." The   
 presentation seems simplistic but appears to be amenable to refinement. I took the .mac files out of this paper and style-edited  
-them slightly, and put them below. They have been found to successfully run in copy-paste mode from this repository.  
+them slightly, so they would run on M46. They have been found to successfully run in copy-paste mode from this repository.  
   
     
 
