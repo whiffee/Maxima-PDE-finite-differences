@@ -57,7 +57,8 @@ contour = both, color = blue, elevation_grid(M,0,0,8,24),
 title = "HypPDE.mac", xlabel = "Time", ylabel = "x", zlabel = "Function  value"); 
 
 
-![hyppde mac](https://user-images.githubusercontent.com/29483443/187046283-21a9eb1c-942a-4a67-b48b-93712e6c4b5f.svg)
+
+![hypPDE mac](https://user-images.githubusercontent.com/29483443/187046337-0094b575-94bd-4148-933b-4d6096b5e7aa.svg)
 
   
 
