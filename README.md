@@ -86,7 +86,16 @@ blue,elevation_grid(M,0,0,100,100),title = "lapPDE.mac",xlabel = "x",ylabel =
 "y",zlabel = "Function value",surface_hide = true); 
   
     
-### And for Poisson's equation:  
+ ![lapPDEmac](https://user-images.githubusercontent.com/29483443/187046488-4c34fa0d-b03f-46ef-a8aa-0e351b4989e0.svg)
+     
+      
+  
+    
+### And for Poisson's equation: 
+  
+    
+      
+      
    
    
  
