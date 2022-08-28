@@ -5,7 +5,7 @@ In 2013 an academic paper was published by the Turkish professor Tufan Sirin, wh
 
 I took the .mac files out of this paper and style-edited them somewhat, so they would run on M46. They have been found to run successfully in copy-paste mode from this repository.  
 
-An attraction of this method is that it is free of dependencies; everything needed is available in the core of Maxima itself.
+Besides its remarkable compactness, another attraction of this method is that it is free of dependencies; everything needed is available in the core of Maxima itself.
   
     
 
