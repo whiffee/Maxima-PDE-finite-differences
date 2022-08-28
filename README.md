@@ -1,7 +1,7 @@
 # Maxima-PDE-finite-differences
 Some .mac files for calculating partial differential equations through the method of finite differences  
 
-In 2013 an academic paper was published by the Turkish professor Tufan Sirin, which demonstrated how to do PDEs in Maxima using finite differences. The title of the paper is "Solutions of Partial Differential Equations with Computer Algebra." The math exposition is on a basic level; the whole paper is only four pages in length. Though I know jack about PDEs, it seems that the degree of accuracy in the described method could be increased as desired simply by finer discretization. 
+In 2013 an academic paper was published by the Turkish professor Tufan Sirin, which demonstrated how to do PDEs in Maxima using finite differences. The title of the paper is "Solutions of Partial Differential Equations with Computer Algebra." The math exposition is terse; the whole paper is only four pages in length. Though I know jack about PDEs, it seems that the degree of accuracy in the described method could be increased as desired simply by finer discretization. 
 
 I took the .mac files out of this paper and style-edited them somewhat, so they would run on M46. They have been found to run successfully in copy-paste mode from this repository.  
 
